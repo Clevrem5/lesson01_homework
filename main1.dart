@@ -12,6 +12,6 @@ Home(this.number,this.adress,this.floor,this.num_of_rooms,this.area);
 
 void main(){
   Home house=Home(47, "Ibrat Mfy", 2, 6, 800.5);
-
+pr
 
 }
