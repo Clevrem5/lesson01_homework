@@ -26,11 +26,11 @@ void main() {
   );
 
   // Home obyekti ma'lumotlarini chop etish
-  print("Uy raqami: \${myHome.number}");
-  print("Manzil: \${myHome.adress}");
-  print("Qavatlar soni: \${myHome.floor}");
-  print("Xonalar soni: \${myHome.num_of_rooms}");
-  print("Maydon: \${myHome.area} m²");
+  print("Uy raqami: ${myHome.number}");
+  print("Manzil: ${myHome.adress}");
+  print("Qavatlar soni: ${myHome.floor}");
+  print("Xonalar soni: ${myHome.num_of_rooms}");
+  print("Maydon: ${myHome.area} m²");
 
   // Uy hajmi haqida xabar chiqish
   if ((myHome.num_of_rooms ?? 0) >= 10) {
@@ -43,10 +43,12 @@ void main() {
 }
 /*
 D:/Tools_fultr/Flutter/flutter/bin/cache/dart-sdk/bin/dart.exe --enable-asserts --no-serve-devtools D:\dart\lesson01\main1.dart
-Uy raqami: ${myHome.number}
-Manzil: ${myHome.adress}
-Qavatlar soni: ${myHome.floor}
-Xonalar soni: ${myHome.num_of_rooms}
-Maydon: ${myHome.area} m²
+Uy raqami: 123
+Manzil: 123 Main Street
+Qavatlar soni: 2
+Xonalar soni: 5
+Maydon: 120.5 m²
 Katta uy
+
+Process finished with exit code 0
  */
