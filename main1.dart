@@ -1,5 +1,5 @@
 class Home {
-  int? number;
+  int? son;
   String? adress;
   int? floor;
   int? num_of_rooms;
@@ -7,7 +7,7 @@ class Home {
 
   // Constructor
   Home({
-    required this.number,
+    required this.son,
     required this.adress,
     required this.floor,
     required this.num_of_rooms,
@@ -18,7 +18,7 @@ class Home {
 void main() {
   // Home classidan obyekt yaratish
   Home myHome = Home(
-    number: 123,
+    son: 123,
     adress: "123 Main Street",
     floor: 2,
     num_of_rooms: 5,
@@ -26,7 +26,7 @@ void main() {
   );
 
   // Home obyekti ma'lumotlarini chop etish
-  print("Uy raqami: ${myHome.number}");
+  print("Uy raqami: ${myHome.son}");
   print("Manzil: ${myHome.adress}");
   print("Qavatlar soni: ${myHome.floor}");
   print("Xonalar soni: ${myHome.num_of_rooms}");
