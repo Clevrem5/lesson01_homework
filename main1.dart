@@ -41,3 +41,12 @@ void main() {
     print("O'rtacha kattalikdagi uy");
   }
 }
+/*
+D:/Tools_fultr/Flutter/flutter/bin/cache/dart-sdk/bin/dart.exe --enable-asserts --no-serve-devtools D:\dart\lesson01\main1.dart
+Uy raqami: ${myHome.number}
+Manzil: ${myHome.adress}
+Qavatlar soni: ${myHome.floor}
+Xonalar soni: ${myHome.num_of_rooms}
+Maydon: ${myHome.area} m²
+Katta uy
+ */
