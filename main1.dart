@@ -6,4 +6,5 @@ class Home{
   double? area;
 
   // konstructorni yaratamiz!
+Home(this.number,this.adress,this.floor,this.num_of_rooms,this.area);
 }
