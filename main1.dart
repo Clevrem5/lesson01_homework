@@ -1,17 +1,43 @@
-class Home{
+class Home {
   int? number;
   String? adress;
   int? floor;
   int? num_of_rooms;
   double? area;
 
-  // konstructorni yaratamiz!
-Home(this.number,this.adress,this.floor,this.num_of_rooms,this.area);
-
+  // Constructor
+  Home({
+    required this.number,
+    required this.adress,
+    required this.floor,
+    required this.num_of_rooms,
+    required this.area,
+  });
 }
 
-void main(){
-  Home house=Home(47, "Ibrat Mfy", 2, 6, 800.5);
-pr
+void main() {
+  // Home classidan obyekt yaratish
+  Home myHome = Home(
+    number: 123,
+    adress: "123 Main Street",
+    floor: 2,
+    num_of_rooms: 5,
+    area: 120.5,
+  );
 
+  // Home obyekti ma'lumotlarini chop etish
+  print("Uy raqami: \${myHome.number}");
+  print("Manzil: \${myHome.adress}");
+  print("Qavatlar soni: \${myHome.floor}");
+  print("Xonalar soni: \${myHome.num_of_rooms}");
+  print("Maydon: \${myHome.area} m²");
+
+  // Uy hajmi haqida xabar chiqish
+  if ((myHome.num_of_rooms ?? 0) >= 10) {
+    print("Juda katta xonadon");
+  } else if ((myHome.num_of_rooms ?? 0) >= 4) {
+    print("Katta uy");
+  } else {
+    print("O'rtacha kattalikdagi uy");
+  }
 }
